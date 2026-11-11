@@ -1,0 +1,47 @@
+Column Name,New Name,Field Type,Description
+Acct1,months_longest_satisfactory_streak,Credit Attribute,"Longest consecutive months with a satisfactory balance activity status on trades, excluding collections and other unsatisfied derogatory including indeterminates"
+Acct2,num_active_revolving_bankcards_3m,Credit Attribute,Total number of revolving bankcard trades with a balance activity in the last 3 months excluding unsatisfied derogatory
+Acct3,num_open_trades,Credit Attribute,Total number of open trades
+Acct4,num_trades_opened_3m,Credit Attribute,Total number of trades opened in the last 3 months excluding collections including indeterminates
+Acct5,months_since_oldest_trade,Credit Attribute,Number of months since the oldest trade was opened excluding collections including indeterminates
+Acct6,num_trades_with_balance,Credit Attribute,Total number of trades with a balance > $0 excluding collections including indeterminates
+Acct7,pct_trades_never_delinquent,Credit Attribute,Percentage of trades including collections that are never delinquent or derogatory
+BK1,num_bankruptcy_trades,Credit Attribute,Total number of bankruptcy trades
+BK2,num_ch7_bankruptcies,Credit Attribute,Total number of public record chapter 7 bankruptcies
+BK3,num_ch13_bankruptcies,Credit Attribute,Total number of public record chapter 13 bankruptcies
+CO1,num_trades_ever_charged_off,Credit Attribute,Total number of trades ever charged-off
+CO2,num_unsatisfied_chargeoffs,Credit Attribute,Total number of presently unsatisfied charge-off trades including settled charge-off trades
+CO3,bal_unsatisfied_chargeoffs,Credit Attribute,Total balance on presently unsatisfied charge-off trades including settled charge-off trades
+Col1,num_unsatisfied_collections,Credit Attribute,Total number of unsatisfied collections
+Del1,num_trades_ever_30plus_dpd,Credit Attribute,Total number of trades ever 30 or more days delinquent or derogatory including collections
+Del2,num_trades_now_30dpd_6m,Credit Attribute,Total number of trades presently 30 days delinquent reported in the last 6 months
+Del3,num_trades_now_90_180dpd_6m,Credit Attribute,Total number of trades presently 90-180 days delinquent reported in the last 6 months
+Del4,num_trades_30plus_dpd_12m,Credit Attribute,Total number of trades ever 30 or more days delinquent or derogatory occurred in the last 12 months including collections
+Del5,num_trades_90dpd_24m,Credit Attribute,Total number of trades 90 days delinquent in the last 24 months excluding collections and other unsatisfied derogatory
+Del6,months_since_recent_30dpd,Credit Attribute,"Number of months since the most recent 30 days delinquency on trades, excluding collections and other unsatisfied derogatory including indeterminates"
+Del8,num_first_payment_defaults_12m,Credit Attribute,"Total number of trades opened in the last 12 months that had a first payment default, excluding collections"
+Del9,num_30dpd_occurrences_24m,Credit Attribute,Total number of occurrences of 30 days delinquency in the last 24 months on trades excluding collections and other unsatisfied derogatory
+Inq1,num_inquiries_12m,Credit Attribute,Total number of inquiries made in the last 12 months
+PubRec1,num_judgments_over_1000,Credit Attribute,Total number of public record judgments with amount > $1000
+Repo1,num_trades_repossessed,Credit Attribute,Total number of trades ever repossessed
+Score1,credit_score_1,Credit Attribute,
+Score2,credit_score_2,Credit Attribute,
+Util1,util_overall_open_trades,Credit Attribute,Overall balance to credit amount ratio on open trades with credit amount > $0
+Util2,util_highest_balance_trade_3m,Credit Attribute,Balance to credit amount ratio on an open trade with the highest balance and credit amount > $0 reported in the last 3 months
+Util3,util_revolving_bankcards_3m,Credit Attribute,Overall balance to credit limit ratio on open revolving bankcard trades reported in the last 3 months with credit limit > $0
+Acct10,num_no_preset_limit_bankcards,Noise,Total number of no preset spending limit bankcard trades
+Acct11,months_since_recent_business_trade,Noise,"Number of months since the most recently opened open personal liable business loan, line of credit, or credit card trade"
+Acct12,acct12_code_undocumented,Noise,
+Acct13,months_since_recent_personal_finance_trade,Noise,Number of months since the most recently opened personal finance trade including indeterminates
+Acct14,acct14_undocumented,Noise,
+Acct15,num_mortgage_inquiries,Noise,Total number of mortgage type inquiries
+Acct8,deceased_flag,Noise,Deceased flag
+Acct9,num_trades_natural_disaster,Noise,Total number of trades affected by natural disaster excluding collections
+BK5,num_discharged_bankruptcies,Noise,Total number of public record discharged bankruptcies
+Util4,months_active_revolving_bankcards_12m,Noise,Average number of months with a balance activity in the last 12 months on open revolving bankcard trades opened at least 6 months
+bad_flg_90plus_24m,bad_flg_90plus_24m,Performance,Did this account specifically default on a payment
+bal_12m,bal_12m,Performance,
+bal_24m,bal_24m,Performance,
+consumer_bad_flg_90plus_24m,consumer_bad_flg_90plus_24m,Performance,Did this person default on any account in history?
+line_12m,line_12m,Performance,
+line_24m,line_24m,Performance,
